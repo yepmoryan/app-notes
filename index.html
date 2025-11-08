@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 Application de Notes Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📝 Mes Notes</h1>
+        <div class="top-buttons">
+            <button id="theme-btn">🌙 Mode sombre</button>
+            <button id="clear-btn">🗑️ Supprimer tout</button>
+        </div>
+    </header>
+
+    <section class="note-section">
+        <textarea id="note-input" placeholder="Écris ta note ici..."></textarea>
+        <button id="save-btn">💾 Sauvegarder</button>
+    </section>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="🔍 Rechercher une note...">
+    </div>
+
+    <h2>🗂️ Notes enregistrées</h2>
+    <ul id="notes-list"></ul>
+
+    <div id="notification" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
